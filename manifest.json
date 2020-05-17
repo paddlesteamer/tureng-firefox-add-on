@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Tureng'de Ara",
+    "description": "Aramak istediginiz metni secin, sag tiklayin, 'Turengde Ara'ya basin. Metin yeni sekmede tureng aramasi olarak acilacaktir.",
+    "version": "1.0",
+    "homepage_url": "https://github.com/paddlesteamer/tureng-firefox-add-on",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "icons": {
+        "48": "icons/tureng-icon.png"
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ]
+}
